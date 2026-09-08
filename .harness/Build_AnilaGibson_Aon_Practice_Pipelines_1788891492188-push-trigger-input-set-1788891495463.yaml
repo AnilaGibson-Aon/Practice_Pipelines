@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_AnilaGibson_Aon_Practice_Pipelines_1788891492188-push-trigger-input-set
+  identifier: Build_AnilaGibson_Aon_Practice_Pipelines_1788891492188pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_AnilaGibson_Aon_Practice_Pipelines_1788891492188
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
